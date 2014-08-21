@@ -1,0 +1,10 @@
+Nessa pasta temos dois arquivos tex:
+ - apresentacao.tex
+    Deve fuincionar como uma casca.
+    aqui ficam as "configuracoes" da apresentacao, por exemplo as
+    definicoes de pacotes usados, tema dos slides, novos comandos.
+
+ - slides.tex
+    aqui deve ter APENAS os slides.
+
+

@@ -1,0 +1,36 @@
+\documentclass[brazil]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{fancybox}
+\usepackage{ulem}
+\usepackage{listings}
+\usepackage{clrscode3e}
+\usetheme{Szeged}
+\usecolortheme{seagull}
+\usefonttheme{structuresmallcapsserif}
+
+\newcommand{\subsectionWithFrame}[1]{
+\subsection{#1}
+\frame{\begin{center}
+        \Huge #1
+\end{center}}
+}
+
+\title{Um pouco sobre Python}
+\author{Diogo Haruki \and Jackson \and Fernando Omar}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\include{slides}
+
+
+\end{document}
